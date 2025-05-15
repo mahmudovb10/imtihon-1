@@ -45,6 +45,7 @@
 
 .cta {
   padding-top: 15rem;
+  margin-bottom: 30rem;
 }
 .cta__container {
   background-color: #fafafa;
@@ -61,6 +62,10 @@
 }
 .logo__facebook {
   margin-left: 113.1rem;
+
+  &:hover {
+    color: #ffffff;
+  }
 }
 .logo__twiter {
   margin-left: 117.1rem;
@@ -127,5 +132,99 @@
   }
   .cta__base {
     margin-left: 10rem;
+  }
+}
+.logo__facebook :hover {
+}
+.logo__twiter {
+}
+.logo__pinterest {
+}
+.cta__helper {
+  margin-left: 45rem;
+  margin-top: -19rem;
+}
+.cta__helper__title {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  color: #837d88;
+  padding-top: 4.8rem;
+}
+.cta__helper__description {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  color: #2d2641;
+  padding-top: 3.6rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__helper {
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+}
+
+.cta__contact {
+  margin-left: 73.5rem;
+  margin-top: -19rem;
+}
+.cta__contact__title {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #837d88;
+  padding-top: 4.8rem;
+}
+.cta__contact__description {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  color: #2d2641;
+  padding-top: 3.6rem;
+}
+.cta__others {
+}
+.cta__others__description {
+}
+@media screen and (max-width: 400px) {
+  .cta__contact {
+    margin-top: 4rem;
+    margin-left: 10rem;
+  }
+}
+
+.cta__others {
+  margin-left: 102rem;
+  margin-top: -21rem;
+}
+.cta__others__title {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla";
+  font-size: 1.3rem;
+  color: #837d88;
+  padding-top: 4.8rem;
+}
+.cta__others__description {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  color: #2d2641;
+  padding-top: 3.6rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__others {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    background-color: #fafafa;
   }
 }
