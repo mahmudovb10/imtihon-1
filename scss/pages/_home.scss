@@ -1,0 +1,253 @@
+.hr__main {
+  width: 15rem;
+  color: #ffffff;
+  margin-top: 10.5rem;
+}
+.main {
+  width: 100%;
+  height: 150rem;
+  background-color: #2d2641;
+}
+.main__container {
+  display: flex;
+}
+.container {
+}
+.main__content {
+}
+.hr__main {
+}
+.main__title {
+  width: 54rem;
+  height: 14rem;
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 6.4rem;
+  color: #ffffff;
+  font-family: "DM Serif Display", sans-serif;
+  padding-top: 6.3rem;
+}
+.main__description {
+  width: 54rem;
+  height: 8.4rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  padding-top: 8rem;
+}
+.main__img {
+  margin-top: -12rem;
+  padding-left: 80rem;
+}
+.main__pattern__one {
+  width: 63rem;
+  margin-left: 105rem;
+  margin-top: -100rem;
+}
+@media screen and (max-width: 400px) {
+  .hr__main {
+    display: none;
+  }
+  .main__container {
+    flex-direction: column-reverse;
+  }
+  .main__title {
+    width: 32.7rem;
+    height: 9.6rem;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 9.3rem;
+  }
+  .main__description {
+    width: 32.7rem;
+    height: 13rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    padding-top: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .background__img {
+    width: 35.1rem;
+    height: 41.1rem;
+    margin-top: 41rem;
+    margin-left: -100rem;
+  }
+  .main__pattern__one {
+    display: none;
+  }
+  .btn__black {
+    // Margin Left margin right auto bersam markazga kelmadi shuning uchun rem da berdim
+    margin-top: 20rem;
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .main__description {
+    width: 25rem;
+    height: 15rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  .background__img {
+    width: 32rem;
+    height: 36rem;
+  }
+}
+
+.section {
+}
+.section__container {
+}
+.container {
+}
+.section__content {
+}
+.snappy__pattern__one {
+  margin-top: -19rem;
+  margin-left: -29rem;
+}
+.snappy__pattern {
+}
+.section__title {
+  width: 66.6rem;
+  height: 6.4rem;
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 6.4rem;
+  color: #2c2830;
+  font-family: "DM Serif Display", sans-serif;
+  padding-top: 6.3rem;
+}
+.section__base {
+}
+.snappy__img {
+  margin-top: 18rem;
+}
+.snappy__text {
+}
+.snappy__title {
+  width: 35rem;
+  height: 3.8rem;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: #2c2830;
+  font-family: "DM Serif Display", sans-serif;
+  padding-top: 3.2rem;
+}
+.snappy__description {
+  width: 35rem;
+  height: 7.8rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #837d88;
+  padding-top: 3.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .section__title {
+    width: 32.7rem;
+    height: 4.8rem;
+    font-size: 4.8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .snappy__img {
+    margin-left: 9rem;
+  }
+  .snappy__title {
+    margin-left: 5rem;
+  }
+  .snappy__description {
+    width: 32.7rem;
+    height: 7.8rem;
+  }
+}
+
+.prices {
+  margin-top: -20rem;
+  margin-left: 45rem;
+}
+.prices__img {
+}
+.prices__title {
+  width: 35rem;
+  height: 3.8rem;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: #2c2830;
+  font-family: "DM Serif Display", sans-serif;
+  padding-top: 3.2rem;
+}
+.prices__description {
+  width: 35rem;
+  height: 7.8rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #837d88;
+  padding-top: 3.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .prices__img {
+    margin-top: 30rem;
+    margin-left: -35rem;
+  }
+  .prices__title {
+    margin-left: -42rem;
+  }
+  .prices__description {
+    width: 32.7rem;
+    height: 7.8rems;
+    margin-left: -45rem;
+  }
+}
+
+.people {
+  margin-top: -20rem;
+  margin-left: 95rem;
+}
+.people__img {
+}
+.people__title {
+  width: 35rem;
+  height: 3.8rem;
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 2.8rem;
+  color: #2c2830;
+  padding-top: 3.2rem;
+}
+.people__description {
+  width: 35rem;
+  height: 7.8rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #837d88;
+  padding-top: 3.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .people {
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
+  .people__description {
+    width: 32.7rem;
+    height: 7.8rem;
+    line-height: 2.6rem;
+    margin-left: -9rem;
+  }
+  .people__title {
+    margin-left: -3rem;
+  }
+}

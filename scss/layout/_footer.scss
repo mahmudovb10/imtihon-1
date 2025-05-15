@@ -1,0 +1,133 @@
+.footer {
+  margin-top: 15.8rem;
+  background-color: #2d2641;
+  background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
+  background-position: right 0.1rem top 20%;
+  background-repeat: no-repeat;
+  width: 130rem;
+  height: 35rem;
+  margin-left: 28rem;
+}
+.footer__container {
+}
+.container {
+}
+.footer__content {
+}
+.footer__title {
+  width: 49rem;
+  height: 11.2rem;
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  color: #ffffff;
+  padding-top: 6.9rem;
+  padding-left: 8.1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    width: 32.7rem;
+    height: 48rem;
+    margin-left: 3rem;
+  }
+  .footer__title {
+    width: 27.9rem;
+    height: 12rem;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 5rem;
+    margin-left: -4rem;
+  }
+}
+
+.cta {
+  padding-top: 15rem;
+}
+.cta__container {
+  background-color: #fafafa;
+  background-image: url(../images/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
+  //   CHAP TOMONGA SURA OLMADIM LEFT GA BERSAM TEPASINI HISOBLADI TOP, RIGHT, BOTTOM GA BERSAM HAM BO'LMADI
+  background-position: left 0.2rem;
+}
+.container {
+}
+.cta__content {
+}
+// FLEX BILAN SPACE-BEETWEN BERSAM ORASIDAN JOY OCHILIB QOLAYOTGANDI TO'G'IRLAY OLMADIM
+.cta__logo {
+  padding-top: 6.7rem;
+}
+.logo__facebook {
+  margin-left: 113.1rem;
+}
+.logo__twiter {
+  margin-left: 117.1rem;
+  margin-top: -2.2rem;
+}
+.logo__pinterest {
+  margin-left: 121.1rem;
+  margin-top: -2.2rem;
+}
+.logo__instagram {
+  margin-left: 125.1rem;
+  margin-top: -2.2rem;
+}
+.cta__hr {
+  width: 128rem;
+  color: #dadada;
+  margin-top: 3.6rem;
+}
+.cta__base {
+}
+.cta__base__info {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #837d88;
+  padding-top: 4.8rem;
+}
+.cta__base__info__description {
+  width: 25.5rem;
+  height: 1.5rem;
+  font-family: "Karla", sans-serif;
+  font-size: 1.3rem;
+  color: #2d2641;
+  padding-top: 3.6rem;
+}
+@media screen and (max-width: 400px) {
+  .cta__container {
+  }
+  .cta__logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo__facebook {
+    margin-left: 6.5rem;
+    margin-right: auto;
+    padding-top: 3.2rem;
+  }
+  .logo__twiter {
+    margin-left: 11rem;
+    margin-right: auto;
+  }
+  .logo__pinterest {
+    margin-left: auto;
+    margin-right: 11rem;
+  }
+  .logo__instagram {
+    margin-left: auto;
+    margin-right: 6rem;
+  }
+  .cta__hr {
+    width: 32.7rem;
+  }
+  .cta__base {
+    margin-left: 10rem;
+  }
+}

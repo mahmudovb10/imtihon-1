@@ -4,14 +4,180 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Insure</title>
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
-    <!-- header -->
-    <header></header>
-    <main></main>
-    <!-- footer -->
-    <footer></footer>
+    <header class="header">
+      <div class="header__container container">
+        <div class="site__logo">
+          <img class="site__logotip" src="./images/logo.svg" alt="" />
+        </div>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link header__nav" href="">HOW WE WORK</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link header__nav" href="#">Blog</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link header__nav" href="#">ACCOUNT</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link light__btn btn" href="#">VIEW PLANS</a>
+            </li>
+          </ul>
+        </nav>
+        <button id="showBtn" class="header__toggle__btn">
+          <img src="./images/site-burger.svg" alt="" width="30" height="18" />
+        </button>
+      </div>
+      <div class="header__hidden">
+        <nav class="header__hidden__nav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item burger__nav">
+              <a class="sitenav__link" href="#">HOW WE WORK</a>
+            </li>
+            <li class="sitenav__item burger__nav">
+              <a class="sitenav__link" href="#">Blog</a>
+            </li>
+            <li class="sitenav__item burger__nav">
+              <a class="sitenav__link" href="#">ACCOUNT</a>
+            </li>
+            <li class="sitenav__item burger__nav">
+              <a class="sitenav__link light__btn res btn" href="#"
+                >VIEW PLANS</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container container">
+        <div class="main__content">
+          <hr class="hr__main" />
+          <h1 class="main__title">Humanizing your insurance.</h1>
+          <p class="main__description">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <div class="black__btn">
+            <a class="btn__black btn" href="">VIEW PLANS</a>
+          </div>
+          <div class="background__img">
+            <img
+              class="main__img"
+              src="./images/image-intro-desktop.jpg"
+              alt=""
+            />
+            <img
+              class="main__pattern__one"
+              src="./images/main-pattern-one.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <br />
+    <section class="section">
+      <div class="section__container container">
+        <div class="section__content">
+          <div class="snappy__pattern__one">
+            <img
+              class="snappy__pattern"
+              src="./images/bg-pattern-intro-left-desktop.svg"
+              alt=""
+            />
+          </div>
+          <hr class="hr__main" />
+          <h1 class="section__title">We’re different</h1>
+        </div>
+        <div class="section__base">
+          <img
+            class="snappy__img"
+            src="./images/icon-snappy-process.svg"
+            alt=""
+          />
+          <div class="snappy__text">
+            <h4 class="snappy__title">Snappy Process</h4>
+            <p class="snappy__description">
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </div>
+          <div class="prices">
+            <img
+              class="prices__img"
+              src="./images/icon-affordable-prices.svg"
+              alt=""
+            />
+            <h4 class="prices__title">Affordable Prices</h4>
+            <p class="prices__description">
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </div>
+          <div class="people">
+            <img
+              class="people__img"
+              src="./images/icon-people-first.svg"
+              alt=""
+            />
+            <h3 class="people__title">People First</h3>
+            <p class="people__description">
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content">
+          <h1 class="footer__title">Find out more about how we work</h1>
+          <a class="footer__btn" href="">HOW WE WORK</a>
+        </div>
+      </div>
+    </footer>
+    <div class="cta">
+      <div class="cta__container container">
+        <div class="cta__content">
+          <img class="cta__logo" src="./images/logo.svg" alt="" />
+          <img class="logo__facebook" src="./images/icon-facebook.svg" alt="" />
+          <img class="logo__twiter" src="./images/icon-twitter.svg" alt="" />
+          <img
+            class="logo__pinterest"
+            src="./images/icon-pinterest.svg"
+            alt=""
+          />
+          <img
+            class="logo__instagram"
+            src="./images/icon-instagram.svg"
+            alt=""
+          />
+          <hr class="cta__hr" />
+        </div>
+        <div class="cta__base">
+          <p class="cta__base__info">OUR COMPANY</p>
+          <p class="cta__base__info__description">HOW WE WORK</p>
+          <p class="cta__base__info__description">WHY INSURE?</p>
+          <p class="cta__base__info__description">VIEW PLANS</p>
+          <p class="cta__base__info__description">REVIEWS</p>
+        </div>
+        <!-- <div class="cta__helper">
+          <p class="cta__helper__title">HELP ME</p>
+          <p class="cta__helper__description">FAQ</p>
+          <p class="cta__helper__description">TERMS OF USE</p>
+          <p class="cta__helper__description">PRIVACY POLICY</p>
+          <p class="cta__helper__description">COOKIES</p>
+        </div> -->
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>

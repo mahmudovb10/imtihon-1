@@ -26,6 +26,8 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  font-family: "Karla", sans-serif;
 }
 main {
   flex-grow: 1;
@@ -35,12 +37,9 @@ h1 {
 }
 .container {
   width: 100%;
-  max-width: 1200px; // Bu o'zgaruvchan.
+  max-width: 1440px; // Bu o'zgaruvchan.
   margin-left: auto;
   margin-right: auto;
   padding-left: 5rem;
   padding-right: 5rem;
 }
-// margin, padding, border-radius, font-size, gap, -> rem;
-// width, heightni -> max va pxda bering.
-// line-height -> lh / font-size qilib bering.
